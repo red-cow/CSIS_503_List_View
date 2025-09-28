@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
         setContentView(R.layout.activity_main)
 
         val btn = findViewById<Button>(R.id.myButton)
-        val listView = findViewById<ListView>(R.id.listView)
+        val listView = findViewById<ListView>(R.id.foodList)
 
         val items = resources.getStringArray(R.array.fruit_list).toCollection(ArrayList())
         countView = findViewById<TextView>(R.id.txtCount)
